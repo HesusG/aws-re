@@ -1,0 +1,22 @@
+# Ignorar todos los archivos sin extensión
+*
+!*/
+!*.*
+
+# Excepciones comunes (archivos sin extensión que NO queremos ignorar)
+!Makefile
+!LICENSE
+!Dockerfile
+!.env
+!README
+
+# Ignorar archivos del sistema
+.DS_Store
+.vscode/
+.idea/
+
+# Ignorar node_modules si estás trabajando con Node.js
+node_modules/
+
+# Ignorar archivos de log
+*.log
